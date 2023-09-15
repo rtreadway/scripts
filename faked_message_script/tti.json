@@ -1,0 +1,139 @@
+{
+    "eventCategory": "assessment-event",
+    "eventName": "digital-test-taker-information",
+    "version": "1.0.0",
+    "eventTimeStamp": "2023-09-06T15:58:15.578Z",
+    "hyperloopEventId": "11e73456-e39a-5a39-ad46-6924404d6375",
+    "eventlakeinsertiondate": "2023-09-06 20:59:50.106916",
+    "eventlakeinsertionyear": "2023",
+    "eventlakeinsertionmonth": "09",
+    "eventlakeinsertionday": "06",
+    "eventbusinesskey": "11e73456-e39a-5a39-ad46-6924404d6375",
+    "catapultId": "us-east-1:9f1b7856-9e00-4007-a51e-fe9f4c15b9b8",
+    "personId": "154915312",
+    "env": "int",
+    "Payload": {
+        "rosterEntryId": "7e19fb99-2217-43fd-a34e-13ec303d69ba",
+        "status": "digital-tti-submitted",
+        "lastUpdateTimeStamp": "2023-09-06T15:58:09.025Z",
+        "asmtFamilyCd": 3,
+        "asmtId": 119,
+        "asmtEventId": 2260,
+        "asmtEventRegno": "FAKE11009522",
+        "asmtSubtypeCd": 4,
+        "contractId": null,
+        "deliveryPlatformCd": 5,
+        "educationLevelCd": 6,
+        "eventTestTypeCd": 1,
+        "attendingAICode": "330759",
+        "attendingOrgId": 119387,
+        "testingAICode": "330759",
+        "testCenterId": null,
+        "multiDay": "N",
+        "channelType": "I",
+        "connectionOptOut": "Y",
+        "bigFutureSchoolOptOut": "N",
+        "studentOptInSelectionInd": null,
+        "isDoDEASchool": null,
+        "isInternationalTestCenter": null,
+        "nmsqtOptOut": "N",
+        "shouldCollectAgeRestrictedContent": "Y",
+        "ttiOptOut": "N",
+        "isInternationalAddress": null,
+        "testStartTs": "2023-09-06T12:40:27.852Z",
+        "personInfo": {
+            "lastNm": "Thomas",
+            "firstNm": "Benny",
+            "preferredFirstNm": "",
+            "middleInitial": "M",
+            "birthDt": "2002-05-05",
+            "genderCd": "M"
+        },
+        "ttiInfo": [
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 23,
+                "questionDescr": "ETHNICITY"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 29,
+                "questionDescr": "RACE"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 24,
+                "questionDescr": "FIRST LANGUAGE"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 21,
+                "questionDescr": "BEST LANGUAGE"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 28,
+                "questionDescr": "H S IND"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 27,
+                "questionDescr": "H S GRAD YR"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 35,
+                "questionDescr": "YRS IN H S"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 34,
+                "questionDescr": "US CITIZEN IND"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 17,
+                "questionDescr": "1 GUARD ED"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 19,
+                "questionDescr": "2 GUARD ED"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 26,
+                "questionDescr": "GRADE AVG"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 22,
+                "questionDescr": "COLLEGE MAJOR"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 167,
+                "questionDescr": "DEGREE GOAL"
+            },
+            {
+                "values": null,
+                "invalid": false,
+                "questionCd": 13,
+                "questionDescr": "EMAIL ADDRESS"
+            }
+        ]
+    }
+}
