@@ -1,0 +1,12 @@
+{
+  "Type" : "Notification",
+  "MessageId" : "aae15807-8ae3-5b1c-9708-39b61ddc18ab",
+  "TopicArn" : "arn:aws:sns:us-east-1:364799490210:prod-msaposre-apex-sns",
+  "Subject" : "Amazon S3 Notification",
+  "Message" : "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"us-east-1\",\"eventTime\":\"2025-12-09T03:18:23.032Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"AWS:AROAVJ356PCRFB4WRFFEY:OTHER-PUT-null\"},\"requestParameters\":{\"sourceIPAddress\":\"10.238.78.99\"},\"responseElements\":{\"x-amz-request-id\":\"SPREEJ08QDE9HTA8\",\"x-amz-id-2\":\"RdG4db1hyMnn++ABarSVEPCKIzalW1As9yn22U6uT6ISdm7nR+QIv7r42Ojbd76+YPSURfE2bhdJZ20JG/syxwjamca7shNn\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"NjMxNWI5MDEtZTIxMC00ZjllLWI0YTUtMDEwMmUzY2Q1MjU3\",\"bucket\":{\"name\":\"prod-inbound-vendor-apex\",\"ownerIdentity\":{\"principalId\":\"A269FLO3P59WJM\"},\"arn\":\"arn:aws:s3:::prod-inbound-vendor-apex\"},\"object\":{\"key\":\"APACIF20251208981.xml\",\"size\":3121611,\"eTag\":\"62da3960815ab592332a3f830b176181\",\"versionId\":\"9o3M29gi5hLocGBdqq3.9qg1JfB4nkRe\",\"sequencer\":\"00693794FEE2214D3C\"}}}]}",
+  "Timestamp" : "2025-12-09T03:18:23.861Z",
+  "SignatureVersion" : "1",
+  "Signature" : "Bj+KfThDhdcEMeQCbEt3C3/BEBJxOO469IWhA8QrN6ojrZsVzvYOJHCu9Vs7dBxgl0kq1uoalZJcJ8stb9z1YsMRqGm+etDrr4chpNA791kmL4U7H3FglEuCUu/CauHa9SLsIPBhWM2arxSwDpi4zRc9mew0rSStZ7mVHvL64+lvcKcnFJ/Jm3oWM+MEEKsx5bLKZs59WPgjqy1wU9ZAsIefOzLc309QBSYQtgJiraj8Zdxw6RSzj1qjj9IKBMEPJKQuJnZYBnQCH4jT0675Q65yVBTuqljkmCMLqvPXi1GWRPTr/dOtZk0JNuEUxZaogI5nKlHpera9ozWcdy+ANw==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-6209c161c6221fdf56ec1eb5c821d112.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:364799490210:prod-msaposre-apex-sns:69be1f02-1220-46f5-87e3-6dca85f578e6"
+}
