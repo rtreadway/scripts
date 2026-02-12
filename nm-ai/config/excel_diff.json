@@ -1,0 +1,53 @@
+{
+  "query_to_sheet_name": {
+    "ai_char_diffs": "Character replacements",
+    "ai_domestic_trunc": "Truncations",
+    "ai_intl_trunc": "Truncations - International"
+  },
+  "sheet_field_translations": {
+    "Character replacements": {
+      "ai_code": "AI Code",
+      "flag_name": "Attribute",
+      "original_value": "Original Value",
+      "transformed_value": "Transformed Value"
+    },
+    "Truncations": {
+      "ai_code": "AI Code",
+      "sname": "SNAME",
+      "flag_name": "Truncated Attribute",
+      "original_value": "Original Value",
+      "transformed_value": "Value after Truncation",
+      "original_len": "Original length"
+    },
+    "Truncations - International": {
+      "field": "Field",
+      "ai_code": "Ai Code",
+      "full": "Full Name",
+      "value_len": "Length",
+      "transformed": "Value after Truncation"
+    }
+  },
+  "sheet_field_type_conversions": {
+    "Character replacements": {
+      "AI Code": "str",
+      "Attribute": "str",
+      "Original Value": "str",
+      "Transformed Value": "str"
+    },
+    "Truncations": {
+      "AI Code": "str",
+      "SNAME": "str",
+      "Truncated Attribute": "str",
+      "Original Value": "str",
+      "Value after Truncation": "str",
+      "Original length": "int"
+    },
+    "Truncations - International": {
+      "Ai Code": "str",
+      "Field": "str",
+      "Full Name": "str",
+      "Length": "int",
+      "Value after Truncation": "str"
+    }
+  }
+}
